@@ -1,10 +1,10 @@
-
 /* Основные стили */
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; /* Обновлено на Arial */
-    padding-top: 50px; /* Добавлен отступ сверху для навбара */
+    font-family: Arial, sans-serif; /* Arial для шрифта */
+    padding-top: 50px; /* Отступ сверху для навбара */
+    background-color: lightyellow; /* Установка светло-желтого фона для всего сайта */
 }
 
 /* Навигационная панель */
@@ -33,6 +33,7 @@ h2 {
 .container {
     width: 100%;
     padding: 20px;
+    background-color: lightyellow;
 }
 
 /* Стили заголовка */
@@ -53,27 +54,27 @@ h1 {
     padding: 20px;
     box-sizing: border-box;
     position: relative;
-    background-color: lightgrey; /* Общий цвет фона для всех секций */
+    background-color: lightyellow;
     color: black;
 }
 
 /* Цвета фона для каждой секции */
 .section1 {
-    background-color: lightcoral; /* Светло-красный */
+    background-color: lightcoral;
 }
 
 .section2 {
-    background-color: lightblue; /* Светло-синий */
+    background-color: lightblue;
 }
 
 .section3 {
-    background-color: lightgreen; /* Светло-зеленый */
+    background-color: lightgreen;
 }
 
 /* Цвета для заголовков каждой секции */
 .section-title {
     position: absolute;
-    top: -16px;
+    top: -50px;
     right: -1px;
     padding: 5px;
     border: 1px solid black;
@@ -82,17 +83,17 @@ h1 {
 }
 
 .section1 .section-title {
-    background-color: red; /* Темно-красный */
+    background-color: red;
     color: white;
 }
 
 .section2 .section-title {
-    background-color: blue; /* Темно-синий */
+    background-color: blue;
     color: white;
 }
 
 .section3 .section-title {
-    background-color: green; /* Темно-зеленый */
+    background-color: green;
     color: white;
 }
 
@@ -100,23 +101,23 @@ h1 {
 @media (min-width: 992px) {
     .section {
         float: left;
-        width: 30%; /* Каждая секция занимает 30% ширины экрана */
+        width: 30%;
     }
 }
 
 /* Адаптивный дизайн: Планшет */
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
-        width: 45%; /* Две секции занимают 45% ширины */
+        width: 45%;
         float: left;
     }
 
     .section2 {
-        clear: left; /* Вторая секция начинается с новой строки */
+        clear: left;
     }
 
     .section3 {
-        width: 95%; /* Третья секция занимает всю ширину строки */
+        width: 95%;
         clear: left;
     }
 }
