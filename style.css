@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif; /* Arial для шрифта */
     padding-top: 50px; /* Отступ сверху для навбара */
-    background-color: lightyellow; /* Установка светло-желтого фона для всего сайта */
+    background-color: lightgrey; /* Установка светло-желтого фона для всего сайта */
 }
 
 /* Навигационная панель */
@@ -33,7 +33,7 @@ h2 {
 .container {
     width: 100%;
     padding: 20px;
-    background-color: lightyellow;
+    background-color: lightgrey;
 }
 
 /* Стили заголовка */
@@ -54,47 +54,47 @@ h1 {
     padding: 20px;
     box-sizing: border-box;
     position: relative;
-    background-color: lightyellow;
+    background-color: lightgrey;
     color: black;
 }
 
 /* Цвета фона для каждой секции */
 .section1 {
-    background-color: lightcoral;
+    background-color: lightgrey;
 }
 
 .section2 {
-    background-color: lightblue;
+    background-color: lightgrey;
 }
 
 .section3 {
-    background-color: lightgreen;
+    background-color: lightgrey;
 }
 
 /* Цвета для заголовков каждой секции */
 .section-title {
     position: absolute;
     top: -50px;
-    right: -1px;
-    padding: 5px;
-    border: 1px solid black;
+    right: 30px;
+    padding: 1px;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 .section1 .section-title {
-    background-color: red;
-    color: white;
+    background-color: lightgrey;
+    color: black;
+    
 }
 
 .section2 .section-title {
-    background-color: blue;
-    color: white;
+    background-color: lightgrey;
+    color: black;
 }
 
 .section3 .section-title {
-    background-color: green;
-    color: white;
+    background-color: lightgrey;
+    color: black;
 }
 
 /* Адаптивный дизайн: Десктоп */
